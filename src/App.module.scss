@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background: #21a3f3;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 7rem;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+
+
+.Buttons {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  border: 2px solid transparent;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 15px;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin: 20px;
+  transition: all 0.05s ease-in-out;
+}
+
+.minus {
+  color: rgb(38, 45, 245)
+}
+.plus {
+  color: rgb(38, 45, 245)
+}
